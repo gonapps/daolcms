@@ -937,7 +937,7 @@ class FileHandler {
 	 * Check file exists.
 	 *
 	 * @param string $filename Target file name
-	 * @return bool Returns FALSE if the file does not exists, or Returns full path file(string).
+	 * @return bool Returns FALSE if the file does not exist, or returns full path file(string).
 	 */
 	function exists($filename){
 		$filename = self::getRealPath($filename);
@@ -948,7 +948,7 @@ class FileHandler {
 	 * Check it is dir
 	 *
 	 * @param string $dir Target dir path
-	 * @return bool Returns FALSE if the dir is not dir, or Returns full path of dir(string).
+	 * @return bool Returns FALSE if the dir is not dir, or returns full path of dir(string).
 	 */
 	function isDir($path){
 		$path = self::getRealPath($path);

@@ -84,7 +84,7 @@ class XmlJsFilter extends XmlParser {
 	}
 
 	/**
-	 * Compile a xml_file only when a corresponding js file does not exists or is outdated
+	 * Compile a xml_file only when a corresponding js file does not exist or is outdated
 	 * @return void Returns NULL regardless of the success of failure of the operation
 	 */
 	function compile() {

@@ -53,7 +53,7 @@ class XmlLangParser extends XmlParser {
 	}
 
 	/**
-	 * compile a xml_file only when a corresponding php lang file does not exists or is outdated
+	 * compile a xml_file only when a corresponding php lang file does not exist or is outdated
 	 * @return string|bool Returns compiled php file.
 	 */
 	function compile() {
